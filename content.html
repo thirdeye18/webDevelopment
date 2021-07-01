@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 2 Page</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<h1>Assignment 2 Sample Page</h1>
+	<!-- 6x6 Table -->
+	<table>
+		<caption>Menu Choices available for this week.</caption>
+		<thead>
+			<tr class="firstDouble">
+				<th id="firstCell"></th>
+				<th>Monday</th>
+				<th>Tuesday</th>
+				<th>Wednesday</th>
+				<th>Thursday</th>
+				<th>Friday</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th id="firstRow">Menu 1</th>
+				<td>Grilled Salmon</td>
+				<td>Flank Steak</td>
+				<td>Chop Salad</td>
+				<td>Chicken Skewers</td>
+				<td>Ribeye Steak</td>
+			</tr>
+			<tr>
+				<th id="firstRow">Menu 2</th>
+				<td>Tuna Salad</td>
+				<td>Mac and Cheese</td>
+				<td>Spicy Chili</td>
+				<td>Steak Fajita</td>
+				<td>Carrot Soup</td>
+			</tr>
+			<tr>
+				<th id="firstRow">Menu 3</th>
+				<td>Stuffed Peppers</td>
+				<td>Thai Chicken Soup</td>
+				<td>Tuna Salad</td>
+				<td>Chicken Curry</td>
+				<td>Chicken Salad</td>
+			</tr>
+			<tr>
+				<th id="firstRow">Menu 4</th>
+				<td>Spinach Salad</td>
+				<td>Butternut Squash</td>
+				<td>Split Pea Soup</td>
+				<td>Grilled Chicken</td>
+				<td>Five Spice Chicken</td>
+			</tr>
+			<tr>
+				<th id="firstRow">Menu 5</th>
+				<td>Grilled Salmon</td>
+				<td>Spaghetti and Meatballs</td>
+				<td>Lasagna</td>
+				<td>Rice and Beans</td>
+				<td>Jerk Chicken</td>		
+			</tr>
+			<tr>
+				<th id="firstRow">Menu 6</th>
+				<td>Fried Chicken</td>
+				<td>Sushi</td>
+				<td>Pizza</td>
+				<td>Chicken Skewers</td>
+				<td>Tuna Caserole</td>		
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td id="footer" colspan="2">Substitutions allowed</td>
+				<td id="footer" colspan="4">Please choose one option per day</td>
+			</tr>
+		</tfoot>
+	</table>
+	<!-- Three item list -->
+	<h2>Top choices from last week</h2>
+	<ol>
+		<li>Sushi</li>
+		<li>Pizza</li>
+		<li>Mac and Cheese</li>
+	</ol>
+	<!-- div section -->
+	<div class="outer-content">
+		<div class="inner-content">
+			<p>This is the inner content</p>
+		</div><!-- End of inner-content -->
+	</div><!-- End of outer-content -->
+    <!-- Form section -->
+	<!-- Get Form -->
+	<fieldset>
+		<legend>Get Form</legend>
+		<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+			<label>Text Input <input type="text" name="text_input" /><br />
+			<label>Numerical Input <input type="number" name="numerical_input" /><br />
+			<label>Password <input type="password" name="password_input" /><br />
+			<label>Candy Selection<br />
+			<input type="radio" name="candy" value="Snickers" /> Snickers<br />
+			<input type="radio" name="candy" value="Skittles" /> Skittles<br />
+			<input type="radio" name="candy" value="Mentos" /> Mentos<br />
+			<input type="submit" name="Submit" /><br />
+		</form>
+	</fieldset>
+	<!-- Post Form -->
+	<fieldset>
+		<legend>Post Form</legend>
+		<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+			<label>Text Input <input type="text" name="text_input" /><br />
+			<label>Numerical Input <input type="number" name="numerical_input" /><br />
+			<label>Password <input type="password" name="password_input" /><br />
+			<label>Candy Selection<br />
+			<input type="radio" name="candy" value="Snickers" /> Snickers<br />
+			<input type="radio" name="candy" value="Skittles" /> Skittles<br />
+			<input type="radio" name="candy" value="Mentos" /> Mentos<br />
+			<input type="submit" name="Submit" /><br />
+		</form>
+	</fieldset>
+  </body>
+</html>

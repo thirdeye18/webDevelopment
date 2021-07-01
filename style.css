@@ -1,0 +1,66 @@
+/* Table style settings */
+/* Padding for the table cells */
+th, td {
+	padding: 7px 7px 7px 7px 7px 7px;
+}
+
+/* Double border for the header cells */
+th {
+	border-style: double;
+}
+
+/* Sets even cells within table to grey background */
+td:nth-of-type(even) {
+	background: grey;
+	padding: inherit;
+}
+
+th#firstCell {
+	border-style: hidden;
+	padding: inherit;
+}
+
+/* Sets first row font style to italic */
+th#firstRow {
+  font-style: italic;
+  padding: 7px;
+}
+
+/* Prevents footer cells from having same formatting as the center cells */
+td#footer {
+	background: red;
+}
+
+/* Inner and Outer div style settings */
+
+div.outer-content {
+	position: relative;
+	top: 20px;
+	width: 75%;
+	padding: 10px;
+	background: pink;
+}
+
+div.inner-content {
+	text-align: center;
+	margin: 0px auto 0px auto;
+	width: 75%;
+	background: blue;
+}
+
+/* Style setting for the forms */
+fieldset {
+	position: relative;
+	top: 30px;
+	width: 300px;
+	margin: auto;
+}
+
+label {
+	display: inline-block;
+	width: 300px;
+	text-align: right;
+	float: left;
+	clear: left;
+	font-weight: bold;
+}
